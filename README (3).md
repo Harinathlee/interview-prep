@@ -1,11 +1,31 @@
 
-# Interview Prep on JS Functions
+## Table of Contents
 
-## 1. What is Function Declaration/Definition
+- [Interview Prep on JS Functions](#interview-prep-on-js-functions)
+    - [1. What is Function Declaration/Definition?](#1-what-is-function-declarationdefinition)
+    - [2. What is function expression](#2-what-is-function-expression)
+    - [3. What is anonymous function?](#3-what-is-anonymous-function)
+    - [4. What are First class functions?](#4-what-are-first-class-functions)
+        - [Passed as arguments:](#passed-as-arguments)
+        - [Returned from functions:](#returned-from-functions)
+    - [5.What is IIFE?](#5what-is-iife)
+    - [6.why let is prefered in for loop js?](#6why-let-is-prefered-in-for-loop-js)
+    - [7. Params vs arguments](#7-params-vs-arguments)
+    - [8. What is Callback in JavaScript?](#8-what-is-callback-in-javascript)
+    - [9.What is the difference between function and method?](#9-what-is-the-difference-between-function-and-method)
+    - [10. What is the use of void(0) in JavaScript?](#10-what-is-the-use-of-void0-in-javascript)
+    - [11. What is an arrow function? Give an example.](#11-what-is-an-arrow-function-give-an-example)
+    - [12. What are closures?](#12-what-are-closures)
+        - [Lexical Scoping:](#lexical-scoping)
+    - [13. What are higher order functions?](#13-what-are-higher-order-functions)
+
+# Interview Prep on JS Functions
+## 1. What is Function Declaration/Definition?
 Basic method of creating a function.
 ```javascript
 function sum(a,b){
     return a+b;
+
 }
 ```
 ## 2. What is function expression
