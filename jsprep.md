@@ -352,13 +352,13 @@ This would help to protect your server from being overloaded and would also prev
 ### Here are some specific examples of when to use debouncing and throttling:
 
 **Debouncing:**
-Search bar: Prevent the search results from updating every time the user types a letter.
-Infinite scroll: Prevent the function that loads new content as the user scrolls down the page from being called too often.
-Autocomplete: Prevent the autocomplete suggestions from updating every time the user types a letter.
+- Search bar: Prevent the search results from updating every time the user types a letter.
+- Infinite scroll: Prevent the function that loads new content as the user scrolls down the page from being called too often.
+- Autocomplete: Prevent autocomplete suggestions from being updated whenever the user types a letter.
 **Throttling:**
-Button click: Prevent a button from being clicked more than once per second.
-Form submission: Prevent a form from being submitted more than once per minute.
-API calls: Prevent making too many API calls in a short period of time.
+- Button click: Prevent a button from being clicked more than once per second.
+- Form submission: Prevent a form from being submitted more than once per minute.
+- API calls: Prevent making too many API calls in a short period of time.
 
 ## 9. What is the difference between the null and the undefined values?
 Variables get assigned a `null` value to indicate they are declared and assigned but don’t point to anything. A `undefined` variable is declared but not initialized.
