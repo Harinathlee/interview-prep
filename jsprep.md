@@ -590,6 +590,7 @@ for (var i = 0; i < 5; i++) {
 }
 // Output: 5 5 5 5 5 
 ```
+
 ## 7. Params vs arguments
 The values which we used in function declaration are called Parameters and the values which we provide while calling function is called arguments.
 ```javascript
