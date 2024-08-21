@@ -355,6 +355,7 @@ This would help to protect your server from being overloaded and would also prev
 - Search bar: Prevent the search results from updating every time the user types a letter.
 - Infinite scroll: Prevent the function that loads new content as the user scrolls down the page from being called too often.
 - Autocomplete: Prevent autocomplete suggestions from being updated whenever the user types a letter.
+  
 **Throttling:**
 - Button click: Prevent a button from being clicked more than once per second.
 - Form submission: Prevent a form from being submitted more than once per minute.
