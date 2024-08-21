@@ -611,20 +611,6 @@ function sayGoodbye() {
 }
 greet("John", sayGoodbye);//sayGoodbye is callback function
 ```
-
-## 9. What is the difference between function and method?
-- The major difference between methods and functions in JavaScript is that methods are called on objects while functions are not.
-- Method accepts arguments through an object parameter, and function accepts arguments through a parenthesis parameter.
-```javascript
-let person = {
-  name: "Alice",
-  greet: function() {
-    console.log("Hello, my name is " + this.name);
-  }
-};
-
-person.greet(); // Output: Hello, my name is Alice
-```
 ### Why do we need callbacks
 
 The callbacks are needed because javascript is an event driven language. That means instead of waiting for a response javascript will keep executing while listening for other events.
@@ -643,6 +629,21 @@ async1(function(){
     });
 });
 ```
+
+## 9. What is the difference between function and method?
+- The major difference between methods and functions in JavaScript is that methods are called on objects while functions are not.
+- Method accepts arguments through an object parameter, and function accepts arguments through a parenthesis parameter.
+```javascript
+let person = {
+  name: "Alice",
+  greet: function() {
+    console.log("Hello, my name is " + this.name);
+  }
+};
+
+person.greet(); // Output: Hello, my name is Alice
+```
+
 ## 10. What is the use of void(0) in JavaScript?
 `void(0)` is a special keyword in JavaScript that's used to declare a function that doesn't return any value. When you use `void(0)`, it tells the interpreter that this function should not return anything.
 ```html
